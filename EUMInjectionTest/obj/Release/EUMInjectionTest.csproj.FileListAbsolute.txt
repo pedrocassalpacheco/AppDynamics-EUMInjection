@@ -1,0 +1,12 @@
+C:\projects\EUMInjection\EUMInjectionTest\bin\EUMInjectionTest.dll.config
+C:\projects\EUMInjection\EUMInjectionTest\bin\EUMInjectionTest.dll
+C:\projects\EUMInjection\EUMInjectionTest\bin\EUMInjectionTest.pdb
+C:\projects\EUMInjection\EUMInjectionTest\obj\Release\EUMInjectionTest.dll
+C:\projects\EUMInjection\EUMInjectionTest\obj\Release\EUMInjectionTest.pdb
+C:\projects\EUMInjection\EUMInjectionTest\obj\Release\EUMInjectionTest.csprojResolveAssemblyReference.cache
+C:\Projects\EUMInjection\EUMInjectionTest\bin\EUMInjection.dll
+C:\Projects\EUMInjection\EUMInjectionTest\bin\EUMInjection.pdb
+C:\Projects\EUMInjection\EUMInjectionTest\bin\EntityFramework.dll
+C:\Projects\EUMInjection\EUMInjectionTest\bin\EntityFramework.SqlServer.dll
+C:\Projects\EUMInjection\EUMInjectionTest\bin\EntityFramework.xml
+C:\Projects\EUMInjection\EUMInjectionTest\bin\EntityFramework.SqlServer.xml

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ContosoModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Contoso.dbo.Course' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Course">
+    <Key>
+      <PropertyRef Name="CourseID" />
+      <PropertyRef Name="Title" />
+      <PropertyRef Name="Credits" />
+      <PropertyRef Name="DepartmentID" />
+    </Key>
+    <Property Name="CourseID" Type="int" Nullable="false" />
+    <Property Name="Title" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Credits" Type="int" Nullable="false" />
+    <Property Name="DepartmentID" Type="int" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Contoso.dbo.CourseInstructor' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="CourseInstructor">
+    <Key>
+      <PropertyRef Name="CourseID" />
+      <PropertyRef Name="PersonID" />
+    </Key>
+    <Property Name="CourseID" Type="int" Nullable="false" />
+    <Property Name="PersonID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="ContosoModelStoreContainer">
+    <EntitySet Name="Course" EntityType="Self.Course" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Course].[CourseID] AS [CourseID], 
+    [Course].[Title] AS [Title], 
+    [Course].[Credits] AS [Credits], 
+    [Course].[DepartmentID] AS [DepartmentID]
+    FROM [dbo].[Course] AS [Course]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="CourseInstructor" EntityType="Self.CourseInstructor" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [CourseInstructor].[CourseID] AS [CourseID], 
+    [CourseInstructor].[PersonID] AS [PersonID]
+    FROM [dbo].[CourseInstructor] AS [CourseInstructor]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

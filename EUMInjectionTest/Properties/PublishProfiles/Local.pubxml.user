@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\inetpub\wwwroot\EUMInjectionTest</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>10/15/2015 09:19:06</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>10/15/2015 09:19:06</publishTime>
+    </File>
+    <File Include="bin/EUMInjection.dll">
+      <publishTime>10/21/2015 11:08:59</publishTime>
+    </File>
+    <File Include="bin/EUMInjection.pdb">
+      <publishTime>10/21/2015 11:08:59</publishTime>
+    </File>
+    <File Include="bin/EUMInjectionTest.dll">
+      <publishTime>10/21/2015 11:08:59</publishTime>
+    </File>
+    <File Include="bin/EUMInjectionTest.pdb">
+      <publishTime>10/21/2015 11:08:59</publishTime>
+    </File>
+    <File Include="Page1.html">
+      <publishTime>10/14/2015 21:44:15</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>10/14/2015 10:31:14</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/21/2015 10:29:58</publishTime>
+    </File>
+    <File Include="WebForm1.aspx">
+      <publishTime>10/15/2015 10:34:05</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

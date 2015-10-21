@@ -1,0 +1,5 @@
+C:\Projects\EUMInjection\EUMInjection\bin\Release\EUMInjection.dll
+C:\Projects\EUMInjection\EUMInjection\bin\Release\EUMInjection.pdb
+C:\Projects\EUMInjection\EUMInjection\obj\Release\EUMInjection.dll
+C:\Projects\EUMInjection\EUMInjection\obj\Release\EUMInjection.pdb
+C:\Projects\EUMInjection\EUMInjection\bin\Release\EUMInjection.dll.config

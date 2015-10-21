@@ -1,0 +1,6 @@
+C:\Projects\EUMInjection\EUMInjection\bin\Debug\EUMInjection.dll
+C:\Projects\EUMInjection\EUMInjection\bin\Debug\EUMInjection.pdb
+C:\Projects\EUMInjection\EUMInjection\obj\Debug\EUMInjection.dll
+C:\Projects\EUMInjection\EUMInjection\obj\Debug\EUMInjection.pdb
+C:\Projects\EUMInjection\EUMInjection\bin\Debug\EUMInjection.dll.config
+C:\Projects\EUMInjection\EUMInjection\obj\Debug\EUMInjection.csprojResolveAssemblyReference.cache
